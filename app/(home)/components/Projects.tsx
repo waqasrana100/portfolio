@@ -1,8 +1,11 @@
 import React from 'react';
 import {
   SiAstro,
+  SiExpress,
+  SiMantine,
   SiNestjs,
   SiNextdotjs,
+  SiNodedotjs,
   SiPostgresql,
   SiReact,
   SiReactquery,
@@ -18,23 +21,23 @@ import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
 const Projects = () => {
   const projects = [
     {
-      title: 'Teameights',
-      tech: [SiNextdotjs, SiReactquery, SiNestjs, SiReact],
-      link: 'https://teameights.com',
-      cover: '/images/teameights.png',
+      title: 'wagmibeach',
+      tech: [SiNextdotjs, SiReactquery, SiNodedotjs, SiExpress, SiMantine],
+      link: 'https://www.wagmibeach.xyz/',
+      cover: '/images/wagmiBeach.png',
       background: 'bg-indigo-500',
     },
     {
       title: 'Streamdal (Landing)',
       tech: [SiAstro, SiTailwindcss, SiReact],
-      link: 'https://streamdal.com',
-      cover: '/images/streamdal.png',
+      link: 'https://demo.reath.top/login',
+      cover: '/images/reath.png',
       background: 'bg-green-500',
     },
     {
       title: 'Candy Market',
       tech: [SiSupabase, SiReact, SiStyledcomponents],
-      link: 'https://github.com/nmashchenko/HackathonNovember',
+      link: 'https://www.lighthousearabia.com/',
       cover: '/images/marketplace.png',
       background: 'bg-green-500',
     },

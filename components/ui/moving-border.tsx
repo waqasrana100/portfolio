@@ -53,7 +53,7 @@ export function MovingBorderBtn({
           'relative bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased',
           className
         )}
-        onClick={() => window.open('https://instagram.com/temirmary')}
+        onClick={() => window.open('https://www.youtube.com/@codewithedraak')}
         style={{
           borderRadius: `calc(${borderRadius} * 0.96)`,
         }}

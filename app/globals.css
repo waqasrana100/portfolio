@@ -81,3 +81,15 @@
   border-radius: 50%;
   box-shadow: 0 0 200px 130px #c026d3;
 }
+
+.logo__yt {
+  overflow: hidden;
+
+}
+
+h2 {
+  color: white;
+  mix-blend-mode: difference;
+  font: 12 35vmin/35vh cookie, cursive;/* Adjusted from 35 to 20 for both vmin and vh */
+  text-align: center;
+}

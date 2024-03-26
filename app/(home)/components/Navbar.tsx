@@ -8,17 +8,17 @@ import { cn } from '@/lib/utils';
 const Navbar = ({ className }: { className?: string }) => {
   const socials = [
     {
-      link: 'https://www.linkedin.com/in/nmashchenko/',
+      link: 'https://www.linkedin.com/in/waqas-rana-08102017b/',
       label: 'LinkedIn',
       Icon: SiLinkedin,
     },
+    // {
+    //   link: 'https://twitter.com/nmashchenko_',
+    //   label: 'X',
+    //   Icon: SiX,
+    // },
     {
-      link: 'https://twitter.com/nmashchenko_',
-      label: 'X',
-      Icon: SiX,
-    },
-    {
-      link: 'https://github.com/nmashchenko',
+      link: 'https://github.com/waqasrana100',
       label: 'GitHub',
       Icon: SiGithub,
     },
@@ -27,7 +27,7 @@ const Navbar = ({ className }: { className?: string }) => {
   return (
     <nav className={cn('py-10 flex justify-between items-center animate-move-down', className)}>
       <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>
-        nmashchenko 🧑🏻‍💻
+        Full Stack Developer 🧑🏻‍💻
       </h1>
       <div className='flex items-center gap-5'>
         {socials.map((social, index) => {
