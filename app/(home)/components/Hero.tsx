@@ -1,12 +1,12 @@
 'use client';
 
-import React from 'react';
-import Link from 'next/link';
-import { MovingBorderBtn } from '@/components/ui/moving-border';
 import Title from '@/app/(home)/components/Title';
 import { Meteors } from '@/components/ui/meteors';
-import { SiPostgresql, SiReact, SiTemporal, SiTypescript } from 'react-icons/si';
+import { MovingBorderBtn } from '@/components/ui/moving-border';
+import Link from 'next/link';
 import Image from 'next/image';
+
+import { SiPostgresql, SiReact, SiTemporal, SiTypescript } from 'react-icons/si';
 
 const Hero = () => {
   const currentStack = [
@@ -49,11 +49,11 @@ const Hero = () => {
               <div className='flex items-end mb-4 gap-1 '>
                 <h1 className='font-bold text-xl text-white relative z-50'>I Train@</h1>
                 <h1 contentEditable role='textbox' aria-multiline='true'>Code With Edraak</h1>
-                <img src="/images/yt.svg" alt="ytsvg" width={27} height={27} />
+                <Image src="/images/yt.svg" alt="ytsvg" width={27} height={27} />
               </div>
 
               <p className='font-normal text-base text-slate-500 mb-4 relative z-50'>
-                With over five years of experience, I specialize in training individuals in JavaScript, React, Next.js, and Node.js. My goal is to make a meaningful change in people's lives. I teach on YouTube, focusing on the world's most advanced digital skills for prevention, performance, and longevity in the tech industry.
+                With over five years of experience, I specialize in training individuals in JavaScript, React, Next.js, and Node.js. My goal is to make a meaningful change in people&apos;s lives. I teach on YouTube, focusing on the world&apos;s most advanced digital skills for prevention, performance, and longevity in the tech industry.
               </p>
               <MovingBorderBtn borderRadius='0.5rem' className='p-4 font-semibold'>
                 <p>Dive into my YouTube channel</p>

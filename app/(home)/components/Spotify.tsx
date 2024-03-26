@@ -2,6 +2,8 @@
 import { PinContainer } from '@/components/ui/3d-pin';
 import { Spotlight } from '@/components/ui/spotlight';
 import { useState } from 'react';
+import Image from 'next/image';
+
 
 interface SpotifyTrack {
   album: string;
@@ -32,7 +34,7 @@ const Spotify = () => {
             href='https://www.youtube.com/@codewithedraak'
           >
             <div className='flex basis-full flex-col p-1 sm:p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[16rem] sm:w-[20rem] h-[20rem] relative'>
-            <img src="/images/yt.svg" alt="ytsvg" width={27} height={27} />
+            <Image src="/images/yt.svg" alt="ytsvg" width={27} height={27} />
               <h3 className='max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100'>
                 {track?.title ?? 'Code With Edraak'}
               </h3>
@@ -40,7 +42,7 @@ const Spotify = () => {
                 <span className='text-slate-500 '>{track?.artist ?? 'Rana Waqas'}</span>
               </div>
               {true ? (
-                <img
+                <Image
                   className='flex flex-1 w-full rounded-lg mt-4'
                   src="/images/image.png"
                   alt='spotify-image'
